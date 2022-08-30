@@ -1,8 +1,8 @@
-package com.algo.linkedlist;
+package com.algo.linkedlist.structure;
 
 public class SLinkedList {
-    int data;
-    SLinkedList next;
+    public int data;
+    public SLinkedList next;
     public SLinkedList(int data) {
         this.data = data;
         this.next = null;
