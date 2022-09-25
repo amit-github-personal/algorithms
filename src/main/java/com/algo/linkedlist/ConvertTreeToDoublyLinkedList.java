@@ -1,6 +1,8 @@
 package com.algo.linkedlist;
 
-public class ConvertTreeToDLL {
+import com.algo.linkedlist.structure.DoublyLinkedList;
+
+public class ConvertTreeToDoublyLinkedList {
 
 
     public static void main(String[] args) {
@@ -8,7 +10,7 @@ public class ConvertTreeToDLL {
         node.left = new DoublyLinkedList (3);
         node.right = new DoublyLinkedList (2);
 
-        ConvertTreeToDLL sol = new ConvertTreeToDLL ();
+        ConvertTreeToDoublyLinkedList sol = new ConvertTreeToDoublyLinkedList();
         DoublyLinkedList node1 = sol.bToDLL (node);
         System.out.println (" node");
 

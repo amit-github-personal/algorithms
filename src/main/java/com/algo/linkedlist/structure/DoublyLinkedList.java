@@ -1,9 +1,9 @@
-package com.algo.linkedlist;
+package com.algo.linkedlist.structure;
 
 public class DoublyLinkedList {
-    int data;
-    DoublyLinkedList left;
-    DoublyLinkedList right;
+    public int data;
+    public DoublyLinkedList left;
+    public DoublyLinkedList right;
 
     public DoublyLinkedList(int data) {
         this.data = data;
