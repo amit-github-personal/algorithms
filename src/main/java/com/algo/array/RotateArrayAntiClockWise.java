@@ -6,7 +6,7 @@ public class RotateArrayAntiClockWise {
 
     public static void main(String[] args) {
         int[] arr = new int[]{3, 4, 5, 6, 6, 2, 62};
-        rotateArr( arr, 3, 7);
+        rotateArrUnOptimized( arr, 3, 7);
         ArrayUtils.printArray(arr);
 
     }

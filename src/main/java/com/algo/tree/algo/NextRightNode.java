@@ -1,4 +1,4 @@
-package com.algo.tree;
+package com.algo.tree.algo;
 
 import com.algo.linkedlist.structure.DoublyLinkedList;
 
